@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7));
+}
+nav{
+    display: flex;
+    padding: 1% 3%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 175px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 9px 15px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: goldenrod;
+    text-decoration: none;
+    font-size: 20px;
+}
+.nav-links ul li::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: goldenrod;
+    display: block;
+    margin: auto;
+    transition: 0.25s;
+}
+.nav-links ul li:hover::after{
+    width: 75%;
+}
+.text_box{
+    width: 90%;
+    color: aliceblue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.footer-cont{
+    margin-top: 0px;
+    width: 70%;
+    margin-right: 100%;
+    padding: 100px 15%;
+    background: #333;
+    color: goldenrod;
+    display: flex;
+}
+.footer-cont div{
+    text-align: center;
+}
+.col-2{
+    flex-grow: 1;
+}
+.footer-cont div h3{
+    font-weight: 100;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+.col-1 a{
+    display: block;
+    text-decoration: none;
+    color: rgb(245, 204, 143);
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.col-2 a{
+    display: block;
+    text-decoration: none;
+    color: rgb(245, 204, 143);
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.fa {
+    margin-top: -10px;
+    padding: 10px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25%;
+  }
+.fa-facebook {
+    color: rgb(245, 204, 143);
+    text-decoration: none;
+  }
+.fa-instagram {
+    color: rgb(245, 204, 143);
+    text-decoration: none;
+ 
+  }
+.fa-twitter {
+    color: rgb(245, 204, 143);
+    text-decoration: none;
+
+  }
+.fa-youtube {
+    color: rgb(245, 204, 143);
+    text-decoration: none;
+  }
+.icons{
+    font-size: 25px;
+}
