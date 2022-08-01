@@ -55,9 +55,9 @@ nav img{
 }
 .footer-cont{
     margin-top: 0px;
-    width: 70%;
+    width: 80%;
     margin-right: 100%;
-    padding: 100px 15%;
+    padding: 100px 10%;
     background: #333;
     color: goldenrod;
     display: flex;
@@ -66,7 +66,9 @@ nav img{
     text-align: center;
 }
 .col-2{
-    flex-grow: 1;
+    flex-grow: 0;
+    padding-left: 35%;
+    padding-right: 35%;
 }
 .footer-cont div h3{
     font-weight: 100;
@@ -80,12 +82,21 @@ nav img{
     margin-bottom: 15px;
     font-size: 20px;
 }
+.col-1 a:hover{
+    filter: brightness(70%);
+}
 .col-2 a{
     display: block;
     text-decoration: none;
     color: rgb(245, 204, 143);
     margin-bottom: 15px;
     font-size: 20px;
+}
+.col-2 a:hover{
+    filter: brightness(70%);
+}
+.col-3 a:hover{
+    filter: brightness(70%);
 }
 .fa {
     margin-top: -10px;
