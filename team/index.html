@@ -10,11 +10,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <header class="header" id="header">
-        <nav>
+    <header id="header">
+        <nav class="nav-links">
             <a href="../"><img src = "../assets/images/logo.png"></a>
-            <nav class="nav-links">
-                <ul>
+            <nav class="nav-buttons">
+                <ul id="nav-buttons">
                     <li><a href="../">HOME</a></li>
                     <li><a href ="../blog/index.html">BLOG</a></li>
                     <li><a href ="">GAMES</a></li>
@@ -39,32 +39,42 @@
                     </section>
                 </section>
             </article>
+
+            <article class="team-container"> 
+                <section class="team">
+                    <img src="" alt=""/> 
+                    <section class="member-desc">
+                        <h4 class="member-name">John Doe</h5>
+                        <h5 class="member-role">Game Designer</h4>
+                    </section>
+                </section>
+            </article>
         </section>
     </main>
 
-    <footer class="footer-cont" id="footer">
-        <div class="col-1">
+    <footer id="footer">
+        <section class="col-1">
             <h3>ABOUT</h3>
-            <a href="#">Blog</a>
-            <a href="#">Meet the Team</a>
+            <a href="../blog/index.html">Blog</a>
+            <a href="">Meet the Team</a>
             <a href="#">Terms of Service</a>
-        </div>
+        </section>
 
-        <div class = "col-2">
+        <section class = "col-2">
             <h3>CONTACT US</h3>
             <a href = "#">Support</a>
             <a href = "#">Contact</a>
-        </div>
+        </section>
 
-        <div class = "col-3">
+        <section class = "col-3">
             <h3>SOCIAL MEDIA</h3>
-            <div class = "icons">
-                <a href="#" class="fa fa-instagram"></a>
+            <section class="icons">
+                <a href="https://www.instagram.com/HoneyCoGames/" class="fa fa-instagram"></a>
                 <a href="#" class="fa fa-youtube"></a>
                 <a href="#" class="fa fa-facebook"></a>
-                <a href="#" class="fa fa-twitter"></a>        
-            </div>
-        </div>
+                <a href="https://twitter.com/HoneyCoGames/" class="fa fa-twitter"></a>        
+            </section>
+        </section>
     </footer>
 </body>
 </html>
