@@ -16,7 +16,7 @@ html {
 
 main {
     padding: 1em; /* 16px = 1em */
-    background-color: #4F5261
+    background-color: #4F5261;
 }
   
 section {
@@ -24,7 +24,7 @@ padding: 1em; /* 16px = 1em */
 }
   
 header {
-    background-color: #4F5261
+    background-color: #4F5261;
 }
 
 nav {
@@ -37,7 +37,7 @@ nav img {
     width: 175px;
 }
 
-/* Div is temporary */
+/* div is temporary */
 div {
     height: 100vh;
     width: 100vh;
@@ -45,8 +45,9 @@ div {
 
 footer {
     width: 80%;
+    margin-top: auto;
     margin-right: 100%;
-    padding: 100px 10%;
+    padding: 15px 10%;
     background: #333;
     color: #DAA520;
     display: flex;
