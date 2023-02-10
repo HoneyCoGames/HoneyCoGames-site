@@ -154,7 +154,7 @@ li a {
     opacity: 0.4;
 }
 
-#games img {
+#games section img {
     display: inline-block;
     object-fit: cover;
     width: 400px;
