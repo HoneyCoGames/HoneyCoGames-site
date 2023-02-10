@@ -20,6 +20,7 @@ html {
 main {
     padding: 1em; /* 16px = 1em */
     min-height: 50vh;
+    color: #DAA520;
 }
   
 section {
@@ -45,6 +46,10 @@ nav {
     padding: 0% 2%;
     justify-content: space-between;
     align-items: center;
+}
+
+header {
+    background-color: #1E2132;
 }
 
 header img {
@@ -145,8 +150,21 @@ li a {
     margin-top: -30px;
 }
 
+#about h1 {
+    text-align: center;
+}
+
+#about p {
+    font-size: 1.25em; /* 20px / 16px = 1.25em */
+}
+
+#about img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #team {
-    color: #DAA520;
     text-align: center;
 }
   
