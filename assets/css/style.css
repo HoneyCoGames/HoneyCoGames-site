@@ -210,7 +210,6 @@ p {
 }
   
 #team .member {
-    width: 20%;
     min-width: 15.625em; /* 250px / 16px = 15.625em */
     padding: 0.625em 0.75em; /* 10 / 16px = 0.625em, 12px / 16px = 0.75em */
     border: 0.0625em; /* 1px / 16px = 0.0625em */
