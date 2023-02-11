@@ -168,6 +168,14 @@ p {
     padding-bottom: 5em;
 }
 
+.game-blurb {
+    max-width: 30em;
+}
+
+.italics {
+    font-style: italic;
+}
+
 #main h1 {
     text-align: center;
     font-weight: 900;
