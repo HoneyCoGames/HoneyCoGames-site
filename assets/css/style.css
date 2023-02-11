@@ -172,6 +172,10 @@ p {
     max-width: 30em;
 }
 
+.game-blurb p {
+    padding-bottom: 1.25em;
+}
+
 .italics {
     font-style: italic;
 }
