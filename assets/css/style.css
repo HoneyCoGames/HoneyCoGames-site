@@ -56,6 +56,12 @@ header img {
     width: 175px;
 }
 
+/* div is temporary */
+div {
+    height: 100vh;
+    width: 100vh;
+}
+
 footer {
     background-color: #333333;
     color: #DAA520;
