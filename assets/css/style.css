@@ -192,9 +192,29 @@ p {
     height: 50%;
 }
 
+.header-banner {
+    display: grid;
+    background-image: url("../images/clouds.png");
+    background-size: contain;
+    object-fit: contain;
+    height: 200px;
+    width: 100%;
+    background-repeat: repeat-x;
+    place-items: center;
+}
+
+.games-featured img {
+    width: 90%;
+}
+
 #main h1 {
     text-align: center;
     font-weight: 900;
+}
+
+#welcome h2 {
+    color: #E6D5A1;
+    padding-bottom: 0.4em;
 }
 
 #blog h2{
@@ -213,7 +233,7 @@ p {
     text-align: left;
 }
 
-#blog p {
+#blog p, #welcome p {
     color: #E9CB71;
     font-size: 1.2em;
     text-align: left;
@@ -305,6 +325,12 @@ p {
         display: flex;
         justify-content: space-between;
         flex-wrap: nowrap;
+        padding: 3.125em; /* 50px / 16px = 3.125 em */
+    }
+    
+    .games-featured {
+        display: flex;
+        justify-content: space-evenly;
         padding: 3.125em; /* 50px / 16px = 3.125 em */
     }
 }
