@@ -246,9 +246,24 @@ p {
 }
 
 #games .game-desc {
+    height: 100%;
     transition: 0.2s ease;
     position: relative;
     color: #E6D5A1;
+}
+
+#games h4 {
+    color: #E6D5A1;
+    font-size: 1.5em;
+    font-weight: 900;
+    padding-bottom: 0.5em;
+}
+
+#games h5 {
+    color: #E6D5A1;
+    font-size: 1em;
+    font-weight: 700;
+    padding-bottom: 0.5em;
 }
 
 #about img {
@@ -317,7 +332,7 @@ p {
     .game {
         display: flex;
         justify-content: space-evenly;
-        flex-wrap: wrap;
+        /* flex-wrap: wrap; */
         padding: 3.125em; /* 50px / 16px = 3.125 em */
     }
 
