@@ -176,6 +176,14 @@ p {
     font-style: italic;
 }
 
+.games-container img {
+    object-fit: cover;
+    min-width: 15.625em; /* 250px / 16px = 15.625em */
+    min-height: 15.625em; /* 250px / 16px = 15.625em */
+    width: 50%;
+    height: 50%;
+}
+
 #main h1 {
     text-align: center;
     font-weight: 900;
@@ -183,14 +191,6 @@ p {
 
 #games h2 {
     padding-bottom: 1em;
-}
-
-#games img {
-    object-fit: cover;
-    min-width: 15.625em; /* 250px / 16px = 15.625em */
-    min-height: 15.625em; /* 250px / 16px = 15.625em */
-    width: 50%;
-    height: 50%;
 }
 
 #games .game-desc {
@@ -227,7 +227,7 @@ p {
     padding: 0.625em; /* 10px / 16px = 0.625em */
 }
 
-#team h4{
+#team h4 {
     padding-top: 0.4375em; /* 7px / 16px = 0.4375em */
     font-size: 1.5em; /* 24px / 16px = 1.5em */
     font-weight: 900;
