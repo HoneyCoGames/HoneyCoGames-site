@@ -327,12 +327,17 @@ p {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    width: 50%;
 }
 
 #blog .left-half{
-    left: 0px;
-    width: 50%;
+    float: left;
+    width: 48%;
+
+}
+#blog .right-half{
+    float: right;
+    width: 48%;
+
 }
 
 #blog .blog-img{
@@ -373,5 +378,6 @@ p {
     color: rgb(233, 203, 113);
     font-size: 1.2rem;
     text-align: left;
-    margin: 20px 0px 10px;
+    margin: 20px 0px;
+    margin-right: 250px;
 }
