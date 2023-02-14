@@ -211,6 +211,12 @@ p {
     color: #E9CB71;
 }
 
+.contact {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
 #main h1 {
     text-align: center;
     font-weight: 900;
@@ -318,7 +324,6 @@ p {
     font-size: 1.0625em; /* 17px / 16px = 1.0625em */
     color: #333333;
 }
-  
 
 /* 500px / 16px = 31.25em */
 @media screen and (min-width: 31.25em) {

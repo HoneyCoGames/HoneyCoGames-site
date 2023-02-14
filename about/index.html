@@ -52,7 +52,7 @@
             <section class="contact">
                 <a id="contact"></a>
 
-                <form name="contact" id="form" action="" method="get" aria-labelledby="form-label" aria-live="polite" aria-relevant="additions" onsubmit="return false">
+                <form name="contact" id="form" action="mailto:bestacio@hawk.iit.edu" method="post" aria-labelledby="form-label" aria-live="polite" aria-relevant="additions" entype="text/plain">
                     <h2 id="form-label">Contact Us</h2>
 
                     <ol>
@@ -67,10 +67,9 @@
                         <li>
                             <label for="text-message">Message</label>
                             <textarea name="text-message" if="text-message" required></textarea>
-                            <!-- <input type="text" name="text-message" id="text-message" required/> -->
                         </li>
                         <li>
-                            <button>Send</button>
+                            <button type="submit" id="submit" value="Send">Send</button>
                         </li>
                     </ol>
                 </form>
@@ -99,5 +98,7 @@
             </section>
         </section>
     </footer>
+
+    <script src="../assets/js/site.js"></script>
 </body>
 </html>
