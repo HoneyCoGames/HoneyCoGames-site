@@ -29,15 +29,51 @@
     <main id="main">
         <section id="about">
             <h1>About HoneyCo</h1>
-            <p>
-                Formed in October 2021, HoneyCo is an independent game development studio based in Chicago.
-            </p>
-            <img src="../assets/images/bee.gif" alt="bee"/>
-            <p>
-                HoneyCo is a collection of developers, writers, and artists that want to make games both more inclusive and more connected. 
-                We view games as an art form that puts the player experience first. 
-            </p>
-            <p><li><a id="itch-nav" href="https://honeyco.itch.io/">Check out our Itch Page @HoneyCo!</a></li></p>
+            <section class="about-section">
+                <p>
+                    Formed in October 2021, HoneyCo is an independent game development studio based in Chicago.
+                </p>
+
+                <img src="../assets/images/bee.gif" alt="bee"/>
+                
+                <p>
+                    HoneyCo is a collection of developers, writers, and artists that want to make games both more inclusive and more connected. 
+                    We view games as an art form that puts the player experience first. 
+                </p>
+
+                <p>
+                    <ul>
+                        <li>
+                            <a id="itch-nav" href="https://honeyco.itch.io/">Check out our Itch Page @HoneyCo!</a>
+                        </li>
+                    </ul>
+                </p>
+            </section>
+            <section class="contact">
+                <a id="contact"></a>
+
+                <form name="contact" id="form" action="mailto:bestacio@hawk.iit.edu" method="post" aria-labelledby="form-label" aria-live="polite" aria-relevant="additions" entype="text/plain">
+                    <h2 id="form-label">Contact Us</h2>
+
+                    <ol>
+                        <li>
+                            <label for="name-contact">Name</label>
+                            <input type="text" name="name-contact" id="name-contact" autocomplete="name" required/>
+                        </li>
+                        <li>
+                            <label for="email-contact">Email</label>
+                            <input type="email" name="email-contact" id="email-contact" autocomplete="email" required/>
+                        </li>
+                        <li>
+                            <label for="text-message">Message</label>
+                            <textarea name="text-message" if="text-message" required></textarea>
+                        </li>
+                        <li>
+                            <button type="submit" id="submit" value="Send">Send</button>
+                        </li>
+                    </ol>
+                </form>
+            </section>
         </section>
     </main>
 
@@ -51,8 +87,7 @@
 
         <section class="col-2">
             <h3>CONTACT US</h3>
-            <a href="../about/">Contact</a>
-            <!-- <a href = "#">Contact</a> -->
+            <a href="../about/#contact">Contact</a>
         </section>
 
         <section class="col-3">
@@ -63,5 +98,7 @@
             </section>
         </section>
     </footer>
+
+    <script src="../assets/js/site.js"></script>
 </body>
 </html>
