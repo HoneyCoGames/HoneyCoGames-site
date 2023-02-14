@@ -79,7 +79,7 @@ footer section {
     text-align: center;
 }
 
-li {
+ul li {
     list-style: none;
     display: inline-block;
     padding: 9px 15px;
@@ -87,7 +87,7 @@ li {
     font-size: 20px;
 }
 
-li::after {
+ul li::after {
     content: "";
     width: 0%;
     height: 2px;
@@ -97,7 +97,7 @@ li::after {
     transition: 0.25s;
 }
 
-li:hover::after {
+ul li:hover::after {
     width: 75%;
 }
 
@@ -207,6 +207,10 @@ p {
     width: 90%;
 }
 
+.about-section {
+    color: #E9CB71;
+}
+
 #main h1 {
     text-align: center;
     font-weight: 900;
@@ -263,6 +267,13 @@ p {
     color: #E6D5A1;
     font-size: 1em;
     font-weight: 700;
+    padding-bottom: 0.5em;
+}
+
+#about h2 {
+    color: #E6D5A1;
+    text-align: center;
+    font-weight: 800;
     padding-bottom: 0.5em;
 }
 
