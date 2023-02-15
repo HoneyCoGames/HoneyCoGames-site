@@ -11,5 +11,5 @@
     $body = join(PHP_EOL, $bodyParagraphs);
 
     mail($toEmail, $emailSubject, $body, $headers);
-    header('Location: ../about/');
+    header('Location: https://www.honeycogames.com/about/');
 ?>
