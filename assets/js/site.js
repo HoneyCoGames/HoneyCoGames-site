@@ -53,5 +53,5 @@ function handleFormSubmission(event) {
     var targetElement = event.target;
     event.preventDefault(); // STOP the default browser behavior
     writeFormDataToLocalStorage(targetElement.name); // STORE all the form data
-    location.reload(); // refresh page
+    window.location.href = "mailto:info@honeycogames.com";
   }
