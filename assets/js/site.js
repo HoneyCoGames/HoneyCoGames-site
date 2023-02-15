@@ -12,6 +12,7 @@ if(html.id === 'about') {
     formContact.addEventListener('input', debounce(handleFormInputActivity, 850));
     formContact.addEventListener('change', handleFormInputActivity);
     formContact.addEventListener('submit', handleFormSubmission);
+
 }
 
 function handleFormInputActivity(event) {
@@ -55,7 +56,7 @@ function handleFormSubmission(event) {
     var targetElement = event.target;
     event.preventDefault(); // STOP the default browser behavior
     writeFormDataToLocalStorage(targetElement.name); // STORE all the form data
-    window("mailto:info@honeycogames.com");
+    window.open("mailto:info@honeycogames.com");
 }
 
 /* Core Functions */
