@@ -186,7 +186,7 @@ p {
 
 .thumbnail {
     object-fit: cover;
-    /* width: 70%; */
+    width: 70%;
     height: 50%;
 }
 
