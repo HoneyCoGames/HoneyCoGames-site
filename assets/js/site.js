@@ -56,7 +56,7 @@ function handleFormSubmission(event) {
     var targetElement = event.target;
     event.preventDefault(); // STOP the default browser behavior
     writeFormDataToLocalStorage(targetElement.name); // STORE all the form data
-    window.top.open("mailto:info@honeycogames.com");
+    window.top.location.href= "mailto:info@honeycogames.com";
 }
 
 /* Core Functions */
