@@ -215,6 +215,15 @@ p {
     justify-content: center;
 }
 
+.blog-link {
+    text-decoration: none;
+}
+
+.caption {
+    text-align: center !important;
+    color: #E6D5A1 !important;
+}
+
 #main h1 {
     text-align: center;
     font-weight: 900;
@@ -251,6 +260,19 @@ p {
     min-width: 15.625em; /* 250px / 16px = 15.625em */
     width: 60%;
     position: relative;
+}
+
+#blog-post h2 {
+    font-size: 1.75em;
+    font-weight: 800;
+    color: #E6D5A1;
+}
+
+#blog-post img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 #games .game-desc {
@@ -366,8 +388,16 @@ p {
 
 /* 800px / 16px = 50em */
 @media screen and (min-width: 50em) {
+    #blog-post {
+        padding-left: 10%;
+        padding-right: 10%;;
+    }
 }
 
 /* 960px / 16px = 60em */
 @media screen and (min-width: 60em) {
+    #blog-post {
+        padding-left: 20%;
+        padding-right: 20%;;
+    }
 }
