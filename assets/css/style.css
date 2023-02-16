@@ -224,6 +224,10 @@ p {
     color: #E6D5A1 !important;
 }
 
+.game-desc {
+    padding-bottom: 100em;
+}
+
 #main h1 {
     text-align: center;
     font-weight: 900;
